@@ -1,0 +1,96 @@
+* {
+  scroll-behavior: smooth;
+}
+.preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: #fff;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.background {
+  height: 100vh;
+  background: url(../Images/jay-wennington-N_Y88TWmGwA-unsplash.jpg), #3d3a3a;
+  background-position: top;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+nav {
+  background: transparent;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+  margin: 0 0px !important;
+  padding: 0 0px !important;
+}
+.nav-item {
+  margin: 0 15px;
+}
+.nav-item a:hover {
+  color: #f5146e !important;
+}
+.navbar-brand {
+  font-weight: 700 !important;
+  font-size: 30px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.con h1 {
+  font-weight: 500;
+}
+.pink1 {
+  color: #f5146e;
+}
+.pink {
+  color: #f5146e;
+  font-size: 150%;
+}
+.block {
+  font-weight: 500;
+}
+#menu img {
+  height: 261px;
+}
+#Expert img {
+  height: 310px;
+  width: 230px;
+}
+.background1 {
+  background: url(../Images/olenka-kotyk-iRguZkRTQyA-unsplash.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 120vh;
+}
+@media only screen and (max-width: 412px) {
+  .background1 {
+    height: 290vh;
+    /*font-size: 20px;*/
+  }
+  #Expert img {
+    height: 310px;
+    width: 250px;
+    margin: 0 5%;
+  }
+  #Expert p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1035px) {
+  .background1 {
+    /*font-size: 200%;*/
+  }
+}
